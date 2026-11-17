@@ -21,6 +21,7 @@ static const int8_t W_DEC[FEATURES][LATENT] = {
     {64, 64}
 };
 
+
 static const int32_t B_DEC[FEATURES] = {0, 0, 0};
 
 static int8_t clamp_i8(int value) {
